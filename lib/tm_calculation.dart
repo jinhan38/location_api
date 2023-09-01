@@ -6,7 +6,8 @@ const double _longRadius = 6378137;
 /// 단반경
 const double _shortRadius = 6356752.31425;
 
-/// 투영원점 경도
+/// 투영원점 경도(중부)
+/// 서부 125, 동부 129, 동해원점 131
 const double originLong = 127;
 
 /// 투영원점 위도

@@ -52,8 +52,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 double longitude = result["longitude"];
                 print('latitude : $latitude, longitude : $longitude');
                 TMCalculation(
-                  lat: 37.33,
-                  long: 126.59,
+                  lat: latitude,
+                  long: longitude,
                   callback: (n, e) async {
                     print('n : $n, e : $e');
                     String stationName = await airPollutionApi.getStationName(
